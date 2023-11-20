@@ -101,8 +101,13 @@ Prawn Curry<br></br>
 
           </Typography>
           <Typography paragraph>
-            
+            CALL:<br>
+            </br>
+             097871 40930
+             <br></br>
           </Typography>
+          <br></br>
+          Nandhavana Thottam, Palakkad Main Rd, opp. to Sri krishna college, BK Pudur, Coimbatore, Tamil Nadu 641008
           <Typography>
           </Typography>
         </CardContent>
