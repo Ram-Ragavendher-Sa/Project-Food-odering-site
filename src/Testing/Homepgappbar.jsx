@@ -25,5 +25,6 @@ export default function MenuAppBar() {
         <Link to="/Signin"><button>SignIn</button></Link>
       </Stack>
     </Stack>
+    
   );
 }
