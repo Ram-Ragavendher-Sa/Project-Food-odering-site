@@ -46,8 +46,8 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="SS HYDERABAD BIRIYANI"
+        subheader="Gandhipuram,Coimbatore"
       />
       <CardMedia
         component="img"
@@ -57,9 +57,9 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+        Biryani, Chinese, Mughlai, North Indian, Seafood
+        Open -11am(Everyday) 
+        Closes -11pm(Everyday)
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -80,30 +80,44 @@ export default function RecipeReviewCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          <Typography paragraph>POPULAR DISHES:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+          Hyderabadi Chicken Biryani<br></br>
+Hyderabadi Mutton Biryani<br></br>
+Hyderabadi Veg Biryani<br></br>
+Hyderabadi Dum Biryani<br></br>
+Hyderabadi Chicken Dum Biryani<br></br>
+Hyderabadi Mutton Dum Biryani<br></br>
+Hyderabadi Veg Dum Biryani<br></br>
+Chicken 65 Biryani<br></br>
+Mutton Kheema Biryani<br></br>
+Egg Biryani<br></br>
+Shrimp Biryani<br></br>
+Hyderabadi Chicken Fry Biryani<br></br>
+Paneer Biryani<br></br>
+Vegetable Biryani<br></br>
+<br></br>
+
+PEOPLE SAY THIS PLACE IS KNOWN FOR:<br></br>
+Good Value, Good Quantity, Good Delivery, Excellent Taste, Quick Delivery, Cutlery
+<br></br>
+<br></br>
+AVERAGE COST:<br></br>
+₹500 for two people (approx.)
           </Typography>
           <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
-            medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
-            occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
-            large plate and set aside, leaving chicken and chorizo in the pan. Add
-            pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
-            stirring often until thickened and fragrant, about 10 minutes. Add
-            saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+          CALL:<br></br>
++917407712345<br></br>
+
++917407212345<br></br>
+
++917407312345<br></br>
           </Typography>
           <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is absorbed,
-            15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
-            mussels, tucking them down into the rice, and cook again without
-            stirring, until mussels have opened and rice is just tender, 5 to 7
-            minutes more. (Discard any mussels that don&apos;t open.)
+            
           </Typography>
           <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
+          New VS Towers 51, 11th Street, Cross Cut Road, Gandhipuram, Coimbatore
           </Typography>
         </CardContent>
       </Collapse>
