@@ -4,6 +4,7 @@ import React from 'react'
 import RecipeReviewCard from './CarComp/Carcomp'
 import RecipeReviewCard1 from './CarComp/Carcomp1'
 import RecipeReviewCard2 from './CarComp/Carcomp2'
+import RecipeReviewCard3 from './CarComp/Carcomp3'
 import Footer from './Footer'
 import MenuAppBar from './Homepgappbar'
 import Bim from './img/thai-food.jpg'
@@ -30,7 +31,7 @@ const Homeimgfile = () => {
           <RecipeReviewCard/>
           <RecipeReviewCard1/>
           <RecipeReviewCard2/>
-          <RecipeReviewCard/>
+          <RecipeReviewCard3/>
         </Grid>
         <Footer></Footer>
      </div>
