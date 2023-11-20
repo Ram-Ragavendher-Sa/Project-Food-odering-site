@@ -1,3 +1,4 @@
+import { Link } from '@mui/material';
 import React from 'react';
 import { Instagram, Twitter, Facebook } from '@mui/icons-material';
 
@@ -38,7 +39,10 @@ const Footer = () => {
       <div style={paperStyle}>
         <h2>ABOUT ZOMATO</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}>Who We Are</li>
+          <li style={listItemStyle}><Link style={{color:'black'}}>
+            Who We Are
+          </Link>
+            </li>
           <li style={listItemStyle}>Blog</li>
           <li style={listItemStyle}>Work With Us</li>
           <li style={listItemStyle}>Investor Relations</li>

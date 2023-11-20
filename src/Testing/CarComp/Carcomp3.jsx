@@ -26,19 +26,19 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function RecipeReviewCard() {
-  const [expanded, setExpanded] = React.useState(false);
+export default function RecipeReviewCard2() {
+  const [xpanded, setxpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
+  const handlxpandCick = () => {
+    setxpanded(!xpanded);
   };
 
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+          <Avatar sx={{ bgcolor: 'pink' }} aria-label="recipe">
+            M
           </Avatar>
         }
         action={
@@ -46,8 +46,8 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="SS HYDERABAD BIRIYANI"
-        subheader="Gandhipuram,Coimbatore"
+        title="Radison Blue "
+        subheader="Nava India, Coimbatore"
       />
       <CardMedia
         component="img"
@@ -57,9 +57,11 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Biryani, Chinese, Mughlai, North Indian, Seafood
-        Open -11am(Everyday) 
-        Closes -11pm(Everyday)
+        
+        South Indian, North Indian, Chinese, Sichuan, Shawarma, Biryani, Ice Cream, Shake
+        <br>
+        </br>
+        Open - 11am(Everyday) Closes -11pm(Everyday)
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -70,54 +72,43 @@ export default function RecipeReviewCard() {
           <ShareIcon />
         </IconButton>
         <ExpandMore
-          expand={expanded}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
+          expand={xpanded}
+          onClick={handlxpandCick}
+          aria-expanded={xpanded}
           aria-label="show more"
         >
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
+      <Collapse in={xpanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>POPULAR DISHES:</Typography>
           <Typography paragraph>
-          Hyderabadi Chicken Biryani<br></br>
-Hyderabadi Mutton Biryani<br></br>
-Hyderabadi Veg Biryani<br></br>
-Hyderabadi Dum Biryani<br></br>
-Hyderabadi Chicken Dum Biryani<br></br>
-Hyderabadi Mutton Dum Biryani<br></br>
-Hyderabadi Veg Dum Biryani<br></br>
-Chicken 65 Biryani<br></br>
-Mutton Kheema Biryani<br></br>
-Egg Biryani<br></br>
-Shrimp Biryani<br></br>
-Hyderabadi Chicken Fry Biryani<br></br>
-Paneer Biryani<br></br>
-Vegetable Biryani<br></br>
-<br></br>
-
-PEOPLE SAY THIS PLACE IS KNOWN FOR:<br></br>
-Good Value, Good Quantity, Good Delivery, Excellent Taste, Quick Delivery, Cutlery
-<br></br>
-<br></br>
-AVERAGE COST:<br></br>
-₹500 for two people (approx.)
+          Chicken Biryani<br></br>
+Mutton Biryani<br></br>
+Fish Curry<br></br>
+Chicken Curry<br></br>
+Mutton Curry<br></br>
+Chicken Chettinad<br></br>
+Fish Fry<br></br>
+Egg Curry<br></br>
+Nattu Kozhi Varuval (Country Chicken Fry)<br></br>
+Prawn Curry<br></br>
           </Typography>
           <Typography paragraph>
-          CALL:<br></br>
-+917407712345<br></br>
+            PEOPLE SAY THIS PLACE IS KNOWN FOR:<br></br>
+            Cozy Ambiance, Unlimited Refills, Lip Smacking Food, Pocket Friendly, Comfort Food, Prompt Service
 
-+917407212345<br></br>
-
-+917407312345<br></br>
           </Typography>
           <Typography paragraph>
-            
+            CALL:<br>
+            </br>
+             097871 40930
+             <br></br>
           </Typography>
+          <br></br>
+          Nandhavana Thottam, Palakkad Main Rd, opp. to Sri krishna college, BK Pudur, Coimbatore, Tamil Nadu 641008
           <Typography>
-          New VS Towers 51, 11th Street, Cross Cut Road, Gandhipuram, Coimbatore
           </Typography>
         </CardContent>
       </Collapse>

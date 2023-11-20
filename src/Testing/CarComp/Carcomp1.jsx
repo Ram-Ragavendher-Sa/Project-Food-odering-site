@@ -46,8 +46,8 @@ export default function RecipeReviewCard1() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Palak Paneer"
-        subheader="August 12, 2012"
+        title="007 PUNJABI DHABA"
+        subheader="Kovaipudur,Coimbatore"
       />
       <CardMedia
         component="img"
@@ -57,9 +57,10 @@ export default function RecipeReviewCard1() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+        North Indian, South Indian, Shawarma, Chinese, Beverages
+        <br></br>
+      
+        Open -11am(Everyday) Closes -11pm(Everyday)
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -80,24 +81,35 @@ export default function RecipeReviewCard1() {
       </CardActions>
       <Collapse in={xpanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          <Typography paragraph>POPULAR DISHES:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+            
           </Typography>
           <Typography paragraph>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti fugiat repellat facere ea reiciendis atque minus maxime neque labore aperiam tempore, non, dolorum libero voluptates voluptas repellendus perferendis iusto iure!
+          Dal Tadka<br></br>
+          
+Paneer Butter Masala<br></br>
+Butter Chicken<br></br>
+Naan<br></br>
+Roti/Chapati<br></br>
+Tandoori Roti<br></br>
+Aloo Paratha<br></br>
+Chicken Curry<br></br>
+Mutton Curry<br></br>
+Biryani<br></br>
           </Typography>
           <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is absorbed,
-            15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
-            mussels, tucking them down into the rice, and cook again without
-            stirring, until mussels have opened and rice is just tender, 5 to 7
-            minutes more. (Discard any mussels that don&apos;t open.)
+          PEOPLE SAY THIS PLACE IS KNOWN FOR:<br></br>
+Cozy Ambiance, Unlimited Refills, Lip Smacking Food, Pocket Friendly, Comfort Food, Prompt Service
           </Typography>
           <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
+          AVERAGE COST:<br></br>
+₹1,000 for two people (approx.)<br></br><br></br>
+CALL:<br></br>
++919364525515<br></br>
+<br>
+</br>
+Near, Pirivu, Palakkad Main Rd, BK Pudur, Kovaipudur, Tamil Nadu 641018
           </Typography>
         </CardContent>
       </Collapse>
