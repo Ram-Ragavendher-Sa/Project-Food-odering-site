@@ -105,7 +105,7 @@ Cozy Ambiance, Unlimited Refills, Lip Smacking Food, Pocket Friendly, Comfort Fo
           <Typography>
           AVERAGE COST:<br></br>
 ₹1,000 for two people (approx.)<br></br><br></br>
-CALL<br></br>
+CALL:<br></br>
 +919364525515<br></br>
 <br>
 </br>
