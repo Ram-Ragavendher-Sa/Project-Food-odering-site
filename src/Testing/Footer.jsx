@@ -1,4 +1,5 @@
 import React from 'react';
+import { Instagram, Twitter, Facebook } from '@mui/icons-material';
 
 const Footer = () => {
   const columnStyle = {
@@ -76,7 +77,14 @@ const Footer = () => {
           <li style={listItemStyle}>Sitemap</li>
         </ul>
       </div>
+    <div>
+
+   <Facebook/>
+    <Twitter/>
+    <Instagram/>
     </div>
+    </div>
+
   );
 };
 
