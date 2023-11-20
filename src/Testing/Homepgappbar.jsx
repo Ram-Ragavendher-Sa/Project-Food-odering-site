@@ -12,24 +12,9 @@ import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import { Link } from '@mui/icons-material';
-import { Button } from '@mui/base';
+import { Stack } from '@mui/material';
 
 export default function MenuAppBar() {
-  const [auth, setAuth] = React.useState(true);
-  const [anchorEl, setAnchorEl] = React.useState(null);
-
-  const handleChange = (event) => {
-    setAuth(event.target.checked);
-  };
-
-  const handleMenu = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{bgcolor:'transparent'}}>
@@ -68,7 +53,7 @@ export default function MenuAppBar() {
                   <Button variant="outlined">Login
                     </Button>
                 </Link>
-                <Link to="/Signin"><Button>Sign up</Button></Link>
+                <MenuItem onClick={handleClose}>Sign up</MenuItem>
               </Menu>
             </div>
           )}

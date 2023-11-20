@@ -34,7 +34,7 @@ const Sin = () => {
         <Button variant="contained">Sign-Up</Button>
         <br></br>
         <br></br> 
-        <div>Already a member ? <Link href="#">LogIn</Link></div>
+        <div>Already a member ? <Link href="/lop">LogIn</Link></div>
 
     </Paper>
      </Container>

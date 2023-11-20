@@ -14,7 +14,6 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -52,7 +51,7 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image="/static/images/cards/paella.jpg"
+        image="./res1.jpg"
         alt="Paella dish"
       />
       <CardContent>
