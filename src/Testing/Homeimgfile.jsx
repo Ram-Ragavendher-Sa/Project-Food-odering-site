@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material'
+import { Button, Grid, Stack, Typography } from '@mui/material'
 import { display } from '@mui/system'
 import React from 'react'
 import RecipeReviewCard from './CarComp/Carcomp'
@@ -8,11 +8,20 @@ import RecipeReviewCard3 from './CarComp/Carcomp3'
 import Footer from './Footer'
 import MenuAppBar from './Homepgappbar'
 import Bim from './img/thai-food.jpg'
+import { Link } from 'react-router-dom'
 const Homeimgfile = () => {
   return (
     <div style={{backgroundColor: "#F5E8C7"}}>
         <div style={{backgroundImage:`url(${Bim})`,height:'60vh',width:'100vw'}} >
-            <MenuAppBar/>
+        <Stack style={{display:"flex", justifyContent:"space-between"}}>
+      <Stack>
+        <Typography>Food Lovers</Typography>
+      </Stack>
+      <Stack direction="row-reverse" >
+        <Link to="/lop"><Button variant="contained" style={{position:"relative",padding:7}}>LogIn</Button></Link>
+        <Link to="/Signin"><Button variant="contained" style={{padding:7}}>SignIn</Button></Link>
+      </Stack>
+    </Stack>
             <Grid align='center' sx={{padding:'20px'}}>
                 <br /><br />
                 <br />
