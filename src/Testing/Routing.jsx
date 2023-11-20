@@ -6,7 +6,7 @@ import Sin from "./singinpg";
 const router=createBrowserRouter([
     { path:"/", element: <Homeimgfile/>},
     { path:"/lop",element: <Lope/>},
-    {path:"/Signin",element:<Sin></Sin>}
+    {path:"/Signin",element:<Sin/>}
 ]);
 
 export default router

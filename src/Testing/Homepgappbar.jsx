@@ -68,7 +68,7 @@ export default function MenuAppBar() {
                   <Button variant="outlined">Login
                     </Button>
                 </Link>
-                <MenuItem onClick={handleClose}>Sign up</MenuItem>
+                <Link to="/Signin"><Button>Sign up</Button></Link>
               </Menu>
             </div>
           )}
