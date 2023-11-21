@@ -46,7 +46,7 @@ export default function RecipeReviewCard2() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Radison Blue "
+        title="RADISSON BLU "
         subheader="Nava India, Coimbatore"
       />
       <CardMedia
