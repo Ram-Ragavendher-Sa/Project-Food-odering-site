@@ -52,7 +52,7 @@ export default function RecipeReviewCard2() {
       <CardMedia
         component="img"
         height="194"
-        image="/static/images/cards/paella.jpg"
+        image="https://c.pxhere.com/photos/22/cb/smoke_bbq_barbecue_grill_grilled_meat_food_pork-554844.jpg!d"
         alt="Paella dish"
       />
       <CardContent>

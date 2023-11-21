@@ -52,7 +52,7 @@ export default function RecipeReviewCard2() {
       <CardMedia
         component="img"
         height="194"
-        image="https://tse2.mm.bing.net/th?id=OIP.NG27Dxl7cAotK-5wjdt0egHaFR&pid=Api&P=0&h=180"
+        image="https://www.tasteofhome.com/wp-content/uploads/2019/04/shutterstock_101642626.jpg?w=1200"
         alt="Paella dish"
       />
       <CardContent>
