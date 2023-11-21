@@ -1,4 +1,4 @@
-import { Link } from '@mui/material';
+import { Button, Grid, Link } from '@mui/material';
 import React from 'react';
 import { Instagram, Twitter, Facebook } from '@mui/icons-material';
 
@@ -37,55 +37,65 @@ const Footer = () => {
   return (
     <div style={columnStyle}>
       <div style={paperStyle}>
-        <h2>ABOUT ZOMATO</h2>
+        <h2 style={{color:'white'}}>ABOUT FOODO</h2>
         <ul style={listStyle}>
           <li style={listItemStyle}><Link style={{color:'white'}}>
             Who We Are
           </Link>
             </li>
-          <li style={listItemStyle}>Blog</li>
-          <li style={listItemStyle}>Work With Us</li>
-          <li style={listItemStyle}>Investor Relations</li>
-          <li style={listItemStyle}>Report Fraud</li>
-          <li style={listItemStyle}>Press Kit</li>
-          <li style={listItemStyle}>Contact Us</li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Blog</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Work With Us</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Investor Relations</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Report Fraud</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Press Kit</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Contact Us</Link></li>
         </ul>
       </div>
       <div style={paperStyle}>
-        <h2>ZOMAVERSE</h2>
+        <h2 style={{color:'white'}}>FOODOVERSE</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}>Zomato</li>
-          <li style={listItemStyle}>Blinkit</li>
-          <li style={listItemStyle}>Feeding India</li>
-          <li style={listItemStyle}>Hyperpure</li>
-          <li style={listItemStyle}>Zomaland</li>
+        <li style={listItemStyle}><Link style={{color:'white'}}>Foodo</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Blinket</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Feeding India</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Hyperpure</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Foodoland</Link></li>
         </ul>
       </div>
       <div style={lastPaperStyle}>
-        <h2>FOR RESTAURANTS</h2>
+        <h2 style={{color:'white'}}>FOR RESTAURANTS</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}>Partner With Us</li>
-          <li style={listItemStyle}>Apps For You</li>
+        <li style={listItemStyle}><Link style={{color:'white'}}>Partner With Us</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Apps For You</Link></li>
+          
         </ul>
-        <h2>FOR ENTERPRISES</h2>
+        <h2 style={{color:'white'}}>FOR ENTERPRISES</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}>Zomato For Enterprise</li>
+          
+          <li style={listItemStyle}><Link style={{color:'white'}}>Foodo For Enterprise</Link></li>
         </ul>
       </div>
       <div style={paperStyle}>
-        <h2>LEARN MORE</h2>
+        <h2 style={{color:'white'}}>LEARN MORE</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}>Privacy</li>
-          <li style={listItemStyle}>Security</li>
-          <li style={listItemStyle}>Terms</li>
-          <li style={listItemStyle}>Sitemap</li>
+        <li style={listItemStyle}><Link style={{color:'white'}}>Privacy</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Security</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Terms</Link></li>
+          <li style={listItemStyle}><Link style={{color:'white'}}>Sitemap</Link></li>
         </ul>
       </div>
-    <div>
+    <div style={{textAlign:'justify'}}>
+      <Grid>
+      <Button>
+    <Facebook/>
+      </Button>
+      <Button>
+      <Twitter/>
+      </Button>
+      <Button>
+      <Instagram/>
+      </Button>
 
-   <Facebook/>
-    <Twitter/>
-    <Instagram/>
+      </Grid>
     </div>
     </div>
 
