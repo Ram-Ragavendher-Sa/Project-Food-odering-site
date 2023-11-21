@@ -11,15 +11,15 @@ import Bim from './img/thai-food.jpg'
 import { Link } from 'react-router-dom'
 const Homeimgfile = () => {
   return (
-    <div style={{backgroundColor: "#F5E8C7"}}>
-        <div style={{backgroundImage:`url(${Bim})`,height:'60vh',width:'100vw'}} >
+    <div style={{backgroundColor: "#2B2A4C"}}>
+        <div style={{backgroundImage:`url(${Bim})`,height:'60vh',width:'99vw'}} >
         <Stack style={{display:"flex", justifyContent:"space-between"}}>
       <Stack>
         <Typography>Food Lovers</Typography>
       </Stack>
       <Stack direction="row-reverse" >
-        <Link to="/lop"><Button variant="contained" style={{position:"relative",padding:7}}>LogIn</Button></Link>
-        <Link to="/Signin"><Button variant="contained" style={{padding:7}}>SignIn</Button></Link>
+        <Link to="/lop"><Button style={{position:"relative",padding:7, color:'white',right :30}}>LogIn</Button></Link>
+        <Link to="/Signin"><Button style={{position:"relative", padding:7, right: 30}}>SignIn</Button></Link>
       </Stack>
     </Stack>
             <Grid align='center' sx={{padding:'20px'}}>
