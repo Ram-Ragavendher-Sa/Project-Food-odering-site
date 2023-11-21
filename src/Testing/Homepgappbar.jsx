@@ -16,7 +16,7 @@ import { Stack } from '@mui/material';
 
 export default function MenuAppBar() {
   return (
-    <Stack style={{display:"flex", justifyContent:"space-between"}}>
+    <Stack style={{display:"flex", justifyContent:"space-between", backgroundColor:'black'}}>
       <Stack>
         <p>Food Lovers</p>
       </Stack>
