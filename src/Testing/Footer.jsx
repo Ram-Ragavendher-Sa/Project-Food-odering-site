@@ -24,14 +24,14 @@ const Footer = () => {
   };
 
   const listStyle = {
-    listStyleType: 'none', // Remove bullet points
-    padding: 0, // Remove default padding
+    listStyleType: 'none', 
+    padding: 0, 
     textAlign: 'left',
     marginTop: '10px',
   };
 
   const listItemStyle = {
-    marginBottom: '8px', // Adjust spacing between list items
+    marginBottom: '8px', 
   };
 
   return (
