@@ -52,7 +52,7 @@ export default function RecipeReviewCard1() {
       <CardMedia
         component="img"
         height="194"
-        image="://wallpahttpspercave.com/wp/wp7462967.jpg"
+        image="https://lakegenevacountrymeats.com/wp-content/uploads/Grilling-Chicken-Breast-1.jpg"
         alt="Paella dish"
       />
       <CardContent>
