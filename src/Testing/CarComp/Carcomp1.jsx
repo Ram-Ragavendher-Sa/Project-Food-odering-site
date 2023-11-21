@@ -52,7 +52,7 @@ export default function RecipeReviewCard1() {
       <CardMedia
         component="img"
         height="194"
-        image={`url(${Bim})`}
+        image="https://wallpapercave.com/wp/wp7462967.jpg"
         alt="Paella dish"
       />
       <CardContent>

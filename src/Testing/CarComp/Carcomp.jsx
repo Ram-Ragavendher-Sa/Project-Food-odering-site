@@ -51,7 +51,7 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image="./res1.jpg"
+        image="https://wallpaperaccess.com/full/1972917.jpg"
         alt="Paella dish"
       />
       <CardContent>

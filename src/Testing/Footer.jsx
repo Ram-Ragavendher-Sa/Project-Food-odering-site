@@ -39,7 +39,7 @@ const Footer = () => {
       <div style={paperStyle}>
         <h2>ABOUT ZOMATO</h2>
         <ul style={listStyle}>
-          <li style={listItemStyle}><Link style={{color:'black'}}>
+          <li style={listItemStyle}><Link style={{color:'white'}}>
             Who We Are
           </Link>
             </li>
