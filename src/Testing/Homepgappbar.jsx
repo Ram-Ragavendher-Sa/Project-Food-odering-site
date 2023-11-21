@@ -42,7 +42,7 @@ export default function MenuAppBar() {
           </Typography>
           <div backgroundColor='black'>
       <Stack direction="row-reverse" alignContent='space-between'>
-        <Link to="/lop"><Button variant="text" style={{position:"relative",padding:7,color:'black',right :30,backgroundColor:'transparent',padding:'10px'}}><h1 style={{fontSize:'20px'}}>Login</h1></Button></Link>
+        <Link to="/lop"><Button variant="text" style={{position:"relative",padding:7,color:'black',right :30,backgroundColor:'transparent',padding:'10px',outlineColor:'transparent'}}><h1 style={{fontSize:'20px'}}>Login</h1></Button></Link>
         <Link to="/Signin"><Button variant="text" style={{position:"relative",padding:7, color:'black',right :50,backgroundColor:'transparent',padding:'10px'}}><h1 style={{fontSize:'20px'}}>Signin</h1></Button></Link>
       </Stack>
       </div>

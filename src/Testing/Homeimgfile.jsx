@@ -9,6 +9,7 @@ import Footer from './Footer'
 import MenuAppBar from './Homepgappbar'
 import Bim from './img/thai-food.jpg'
 import { Link } from 'react-router-dom'
+import Desc from './Desc'
 const Homeimgfile = () => {
   return (
     <div style={{backgroundColor: "#435585"}}>
@@ -36,6 +37,7 @@ const Homeimgfile = () => {
           <RecipeReviewCard2/>
           <RecipeReviewCard3/>
         </Grid>
+        <Desc></Desc>
         <Footer></Footer>
      </div>
   )
