@@ -1,4 +1,4 @@
-import { Link } from '@mui/material';
+import { Button, Grid, Link } from '@mui/material';
 import React from 'react';
 import { Instagram, Twitter, Facebook } from '@mui/icons-material';
 
@@ -81,11 +81,19 @@ const Footer = () => {
           <li style={listItemStyle}>Sitemap</li>
         </ul>
       </div>
-    <div>
+    <div style={{textAlign:'justify'}}>
+      <Grid>
+      <Button>
+    <Facebook/>
+      </Button>
+      <Button>
+      <Twitter/>
+      </Button>
+      <Button>
+      <Instagram/>
+      </Button>
 
-   <Facebook/>
-    <Twitter/>
-    <Instagram/>
+      </Grid>
     </div>
     </div>
 

@@ -13,14 +13,8 @@ const Homeimgfile = () => {
   return (
     <div style={{backgroundColor: "#2B2A4C"}}>
         <div style={{backgroundImage:`url(${Bim})`,height:'60vh',width:'99vw'}} >
+          <MenuAppBar></MenuAppBar>
         <Stack style={{display:"flex", justifyContent:"space-between"}}>
-      <Stack>
-        <Typography>Food Lovers</Typography>
-      </Stack>
-      <Stack direction="row-reverse" >
-        <Link to="/lop"><Button style={{position:"relative",padding:7, color:'white',right :30}}>LogIn</Button></Link>
-        <Link to="/Signin"><Button style={{position:"relative", padding:7, right: 30}}>SignIn</Button></Link>
-      </Stack>
     </Stack>
             <Grid align='center' sx={{padding:'20px'}}>
                 <br /><br />
