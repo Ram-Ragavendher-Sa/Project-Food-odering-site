@@ -35,6 +35,8 @@ const Footer = () => {
   };
 
   return (
+    <div style={{backgroundColor:'#818FB4'}}>
+      <hr></hr>
     <div style={columnStyle}>
       <div style={paperStyle}>
         <h2 style={{color:'white'}}>ABOUT FOODO</h2>
@@ -74,6 +76,7 @@ const Footer = () => {
           <li style={listItemStyle}><Link style={{color:'white'}}>Foodo For Enterprise</Link></li>
         </ul>
       </div>
+      <hr></hr>
       <div style={paperStyle}>
         <h2 style={{color:'white'}}>LEARN MORE</h2>
         <ul style={listStyle}>
@@ -84,18 +87,20 @@ const Footer = () => {
         </ul>
       </div>
     <div style={{textAlign:'justify'}}>
-      <Grid>
+      <Grid display={'flex'} style={{flexDirection:'column', margin:'50px'}}>
+        <h1 style={{color:'white'}}>SocialMedia</h1>
       <Button>
-    <Facebook/>
+    <Facebook/>Facebook
       </Button>
       <Button>
-      <Twitter/>
+      <Twitter/>Twitter
       </Button>
       <Button>
-      <Instagram/>
+      <Instagram/>Instagram
       </Button>
 
       </Grid>
+    </div>
     </div>
     </div>
 
