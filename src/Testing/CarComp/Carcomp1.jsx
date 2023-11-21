@@ -52,7 +52,7 @@ export default function RecipeReviewCard1() {
       <CardMedia
         component="img"
         height="194"
-        image="https://wallpapercave.com/wp/wp7462967.jpg"
+        image="://wallpahttpspercave.com/wp/wp7462967.jpg"
         alt="Paella dish"
       />
       <CardContent>
