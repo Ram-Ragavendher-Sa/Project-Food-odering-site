@@ -10,6 +10,8 @@ import MenuAppBar from './Homepgappbar'
 import Bim from './img/thai-food.jpg'
 import { Link } from 'react-router-dom'
 import Desc from './Desc'
+import Remcomp from './CarComp/Remcomp'
+import Newoff from './CarComp/Newoff'
 const Homeimgfile = () => {
   return (
     <div style={{backgroundColor: "#435585"}}>
@@ -38,6 +40,8 @@ const Homeimgfile = () => {
           <RecipeReviewCard3/>
         </Grid>
         <Desc></Desc>
+        {/* <Remcomp/> */}
+        {/* <Newoff></Newoff> */}
         <Footer></Footer>
      </div>
   )

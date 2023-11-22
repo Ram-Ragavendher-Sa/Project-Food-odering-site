@@ -14,7 +14,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
+import { motion } from 'framer-motion';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -34,6 +34,9 @@ export default function RecipeReviewCard2() {
   };
 
   return (
+    <motion.div>
+      <motion.button whileHover={{scale:'1.1'}}>
+
     <Card sx={{ maxWidth: 345 ,bgcolor:'#F5E8C7'}}>
       <CardHeader
         avatar={
@@ -113,5 +116,7 @@ Prawn Curry<br></br>
         </CardContent>
       </Collapse>
     </Card>
+      </motion.button>
+    </motion.div>
   );
 }
