@@ -6,6 +6,8 @@ import { Height, Margin, Padding } from '@mui/icons-material';
 import bgim from './img/thai-food.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+
 const Sin = () => {
   const [username,usernameupdate]=useState('');
   const [email,emailupdate]=useState('');
@@ -77,7 +79,9 @@ const Sin = () => {
     </Typography>
         <br />
         <br /> 
-        <Button variant="contained" type='submit'>Sign-Up</Button>
+       
+        <Button variant="contained" type='submit' >Sign-Up</Button>
+  
         <br></br>
         <br></br> 
         <div>Already a member ? <Link href="/lop">LogIn</Link></div>
