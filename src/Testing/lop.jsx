@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from '@mui/system'
 import { Avatar, Button, Grid, Paper, Typography } from '@mui/material'
 import { TextField } from "@mui/material";
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate } from 'react-router-dom';
 import { Height, Margin, Padding } from '@mui/icons-material';
 import bgim from './img/thai-food.jpg';
 import ButtonAppBar from './Appbar';
@@ -11,12 +11,36 @@ import { ToastContainer, toast } from 'react-toastify';
 const Lope = () => {
   const [email,emailupdate]=useState('');
   const [password,passwordupdate]=useState('');
+  const usenavigate=useNavigate();
   const proceedlogin = (e)=>{
     e.preventDefault();
     if(validate())
     {
       // console.log('proceed');
-      fetch()
+      axios.get("http://localhost:3030/users?email="+email).then((res)=>{
+        
+      }).then((resp)=>
+      {
+        //console.log(resp);
+        if(Object.keys(resp).length===0)
+        {
+          toast.error("Please enter valid Username");
+        }
+        else
+        {
+          if(resp.password === password)
+          {
+            toast.success("Successfully Logged In");
+            usenavigate('/')
+          }
+          else{
+            toast.error("Please enter valid Credentials");
+          }
+        }
+      }).catch((err)=>
+      {
+        toast.error("Login Failed due to :"+err.message);
+      });
     }
   }
   const validate = ()=>
