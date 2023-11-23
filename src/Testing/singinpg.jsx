@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import { Container } from '@mui/system'
-import { Avatar, Button, Grid, Link, Paper, Typography } from '@mui/material'
+import { Avatar, Button, Grid, Paper, Typography } from '@mui/material'
 import { TextField } from "@mui/material";
 import { Height, Margin, Padding } from '@mui/icons-material';
 import bgim from './img/thai-food.jpg';
 import { ToastContainer, toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Sin = () => {
@@ -55,7 +57,9 @@ const Sin = () => {
     return result;
   }
   return (
-    <div style={{backgroundImage:`url(${bgim})`,height:'100vh',width:'100vw'}} >
+    //<div style={{backgroundImage:`url(${bgim})`,height:'100vh',width:'100vw'}} >
+    <div style={{backgroundImage:`url("https://plus.unsplash.com/premium_photo-1695931839656-f192be509203?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,height:'100vh',width:'100vw',backgroundRepeat:"no-repeat",backgroundSize:"cover"}} >
+      
     <form onSubmit={ProceedSignup}>   
     <Container sx={{bgcolor:'grey'}}>
     <Paper elevation={20} sx={{position:'absolute' , left:'35%',top:'25%',textAlign:'center',padding:'50px',opacity:'75%'}}>
@@ -80,11 +84,13 @@ const Sin = () => {
         <br />
         <br /> 
        
-        <Button variant="contained" type='submit' >Sign-Up</Button>
+      
+        <Button  variant="contained" type='submit' >Sign-Up</Button>
+       
   
         <br></br>
         <br></br> 
-        <div>Already a member ? <Link href="/lop">LogIn</Link></div>
+        <div>Already a member ? <Link to="/lop">LogIn</Link></div>
 
     </Paper>
      </Container>
