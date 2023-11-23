@@ -35,9 +35,8 @@ export default function RecipeReviewCard() {
 
   return (
     <div sx={{bgcolor:'#F5E8C7'}}>
-      <motion.div >
-        <motion.button whileHover={{scale:'1.1'}}>
-
+      <motion.div style={{backgroundColor:'inherit'}}>
+      <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
     <Card sx={{ maxWidth: 345 , bgcolor:'#F5E8C7'}}>
       <CardHeader
         avatar={
