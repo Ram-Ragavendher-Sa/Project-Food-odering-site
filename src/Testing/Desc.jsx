@@ -22,7 +22,7 @@ const Desc = () => {
     </div>
     <div style={{display: 'flex',flexDirection: 'row',justifyContent:'space-evenly',margin:'20px'}}>
         <Container>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/7d/97/20/tandoori-chicken-sizzler.jpg" alt="img" style={{height:'50vh',width:'40vw'}}/>
+            <img src="https://cdn.shopify.com/s/files/1/2289/1873/files/warm_plate-min.jpg?v=1668949150" alt="img" style={{height:'50vh',width:'40vw'}}/>
         </Container>
         <Container>
             <div style={{color:'white'}}>
