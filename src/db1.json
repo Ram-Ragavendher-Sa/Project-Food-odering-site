@@ -1,0 +1,10 @@
+{
+    "user":[
+        {
+            "id": 1,
+            "password": "adminuser",
+            "email": "nihiratechiees@gmail.com",
+            "gender": "Male"
+        }
+    ]
+}
