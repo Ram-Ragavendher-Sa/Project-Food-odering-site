@@ -2,26 +2,25 @@ import React from 'react'
 import { Container } from '@mui/system'
 import { Avatar, Button, Grid, Paper, Typography } from '@mui/material'
 import { TextField } from "@mui/material";
-import { Link } from 'react-router-dom';
-import { Height, Margin, Padding } from '@mui/icons-material';
+import { Link ,useNavigate } from 'react-router-dom';
 import bgim from './img/thai-food.jpg';
 import ButtonAppBar from './Appbar';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import {useEffect} from 'react';
-// import get 
+
 const Lope = () => {
   const [email,emailupdate]=useState('');
   const [password,passwordupdate]=useState('');
   const [apiData,setApiData] = useState([]);
   const usenavigate=useNavigate();
+  const apiURL1 = 'http://localhost:3031/users';
   useEffect(()=>{
     const apiURL = 'http://localhost:3031/users';
     axios.get(apiURL)
             .then(response =>{
-                setApiData(response.data);          
-                console.log(apiData); 
+                setApiData(response.data);    
             })
             .catch(error => {
                 console.error(error);
@@ -29,6 +28,7 @@ const Lope = () => {
   },[]);
   const proceedlogin = (e)=>{
     e.preventDefault();
+    // console.log(validate());
     if(validate())
     {
       console.log(email);
@@ -37,18 +37,42 @@ const Lope = () => {
       console.log(valid);
       if(valid)
       { 
-        toast.success("Logged In")
         console.log("success");
         usenavigate('/');
+        toast.success("Logged In");
       }   
       else
       {
-        console.log("failed");
+        console.log("Enter correct credentials");
+        toast.error("Enter correct credentials");
       }
     
       // console.log(apiData);
       // console.log('proceed');
-      fetch()
+      // axios.get("http://localhost:3030/users?email="+email).then((res)=>{
+
+      // }).then((resp)=>
+      // {
+      //   //console.log(resp);
+      //   if(Object.keys(resp).length===0)
+      //   {
+      //     toast.error("Please enter valid Username");
+      //   }
+      //   else
+      //   {
+      //     if(axios.get([password]) === password)
+      //     {
+      //       toast.success("Successfully Logged In");
+      //       usenavigate('/')
+      //     }
+      //     else{
+      //       toast.error("Please enter valid Credentials");
+      //     }
+      //   }
+      // }).catch((err)=>
+      // {
+      //   toast.error("Login Failed due to :"+err.message);
+      // });
     }
   }
   const validate = ()=>
@@ -62,10 +86,7 @@ const Lope = () => {
       result=false;
       toast.warning('Please enter Email');
     }
-    // else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
-    //   toast.warning('Enter valid email ID');
-    //   result=false;
-    // }
+    
     if(password==='' || password===null)
     {
       result=false;
