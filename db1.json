@@ -1,8 +1,6 @@
 {
   "users": [
     {"id": 1, "email": "Ram@gmail.com", "password":"12345"},
-    {"id": 4, "email": "Ramra@gmail.com", "password":"12345"},
-    {"id": 2, "email": "Ravi@gmail.com", "password":"Hi12345"},
-    {"id": 3, "email": "Ravi1@gmail.com", "password":"12345"}
+    {"id": 2, "email": "Ravi@gmail.com", "password":"Hi12345"}
   ]
 }

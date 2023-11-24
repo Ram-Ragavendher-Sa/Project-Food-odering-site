@@ -9,18 +9,18 @@ import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import {useEffect} from 'react';
-// import get 
+
 const Lope = () => {
   const [email,emailupdate]=useState('');
   const [password,passwordupdate]=useState('');
   const [apiData,setApiData] = useState([]);
   const usenavigate=useNavigate();
+  const apiURL1 = 'http://localhost:3031/users';
   useEffect(()=>{
     const apiURL = 'http://localhost:3031/users';
     axios.get(apiURL)
             .then(response =>{
-                setApiData(response.data);          
-                console.log(apiData); 
+                setApiData(response.data);    
             })
             .catch(error => {
                 console.error(error);
@@ -37,13 +37,14 @@ const Lope = () => {
       console.log(valid);
       if(valid)
       { 
-        toast.success("Logged In")
         console.log("success");
         usenavigate('/');
+        toast.success("Logged In");
       }   
       else
       {
-        console.log("failed");
+        console.log("Enter correct credentials");
+        toast.error("Enter correct credentials");
       }
     
       // console.log(apiData);
@@ -75,17 +76,17 @@ const Lope = () => {
     }
   }
   const validate = ()=>
-  {
+  {// // else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
+    // //   toast.warning('Enter valid email ID');
+    // //   result=false;
+    // }
     let result=true;
     if(email==='' || email===null)
     {
       result=false;
       toast.warning('Please enter Email');
     }
-    // else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
-    //   toast.warning('Enter valid email ID');
-    //   result=false;
-    // }
+    
     if(password==='' || password===null)
     {
       result=false;
