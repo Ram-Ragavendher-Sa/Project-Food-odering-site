@@ -1,6 +1,37 @@
 {
   "users": [
-    {"id": 1, "email": "Ram@gmail.com", "password":"12345"},
-    {"id": 2, "email": "Ravi@gmail.com", "password":"Hi12345"}
+    {
+      "id": 1,
+      "UserName": "Ram",
+      "email": "Ram@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "UserName": "Ravi",
+      "email": "Ravi@gmail.com",
+      "password": "Hi12345"
+    },
+    {
+      "firstName": "Sa.",
+      "lastName": "Ram",
+      "email": "ragavendherram@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "firstName": "rashid",
+      "lastName": "khan",
+      "email": "rashid@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "firstName": "Rashith",
+      "lastName": "Mohamed",
+      "email": "rashithmohamed@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
   ]
 }
