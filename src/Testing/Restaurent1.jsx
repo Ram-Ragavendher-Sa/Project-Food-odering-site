@@ -21,6 +21,7 @@ export default function Res1() {
     { title: 'Card 10', description: 'Description 10', image: '/static/images/cards/contemplative-reptile.jpg' },
     { title: 'Card 11', description: 'Description 11', image: '/static/images/cards/contemplative-reptile.jpg' },
     { title: 'Card 12', description: 'Description 12', image: '/static/images/cards/contemplative-reptile.jpg' },
+    // Add more card data as needed
   ];
 
   return (

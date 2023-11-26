@@ -10,10 +10,13 @@ import ActionAreaC1 from './CarComp/carcres1'
 import ActionAreaC2 from './CarComp/carcres2'
 import ActionAreaC3 from './CarComp/carcres3'
 import ActionAreaC4 from './CarComp/carcres4'
+import Footer from './Footer'
 
 const Orderpg = () => {
   return (
-    <div>
+    <div style={
+      { backgroundColor:'#435585'}
+    }>
         <Slideshow/>
         <center>
         <h3>Order Now</h3>
@@ -51,6 +54,7 @@ const Orderpg = () => {
 
           
         </Grid>
+        <Footer/>
         
     </div>
   )

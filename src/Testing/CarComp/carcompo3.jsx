@@ -16,16 +16,15 @@ export default function ActionAreaCard3() {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="https://t4.ftcdn.net/jpg/03/41/57/93/360_F_341579361_gKr5MAjemhMpBmhd61tj9MGRqX86KgNq.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Parotta
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Parotta is a flaky kerala flatbread which is popular all over the world. This bread is easy to make at home as well.
           </Typography>
         </CardContent>
       </CardActionArea>
