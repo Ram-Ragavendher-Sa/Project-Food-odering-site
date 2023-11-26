@@ -16,16 +16,18 @@ export default function ActionAreaC2() {
         <CardMedia
           component="img"
           height="140"
-          image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
+          image="https://lakegenevacountrymeats.com/wp-content/uploads/Grilling-Chicken-Breast-1.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+          007 PUNJABI DHABA
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          North Indian, South Indian, Shawarma, Chinese, Beverages
+        <br></br>
+      
+        Open -11am(Everyday) Closes -11pm(Everyday)
           </Typography>
         </CardContent>
       </CardActionArea>
