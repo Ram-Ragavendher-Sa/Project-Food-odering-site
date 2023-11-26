@@ -59,6 +59,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
+import { AddShoppingCart } from '@mui/icons-material';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
@@ -84,23 +85,31 @@ export default function MenuAppBar() {
   };
 
   return (
-    <div style={{color:'transparent'}}>
+    <div style={{backgroundColorolor:'black', opacity:"75%"}}>
 
-    <Box sx={{ flexGrow: 1 ,color:'transparent'}}>
-      <AppBar position="static" color='transparent'>
+    <Box sx={{ flexGrow: 1 ,backgroundColor:'black'}}>
+      <AppBar position="static" style={{backgroundColor:'black'}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Foodo 
           </Typography>
           {auth && (
             <div>
+              <Link to='/orderpg'>
+                <Button>
+                      <IconButton color="black" aria-label="add to shopping cart" style={{backgroundColor:'white',position:'absolute',right:'5%'}}>
+                        <AddShoppingCart />
+                      </IconButton>
+                </Button>
+              </Link>
               <IconButton
                 size="30px"
                 aria-label="account of current user"
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleMenu}
-                color="black"
+                color="white"
+                style={{backgroundColor:'white'}}
               >
                 <AccountCircle />
               </IconButton>
