@@ -16,16 +16,15 @@ export default function ActionAreaCard4() {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="https://production-media.gousto.co.uk/cms/mood-image/2047---Spicy-Peanut-Chicken-Noodles0227-1616494881154.jpg"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Chicken Noodles
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Chicken noodles are a delicious flavor packed meal of stir fried noodles, chicken, vegetables and sauces.
           </Typography>
         </CardContent>
       </CardActionArea>
