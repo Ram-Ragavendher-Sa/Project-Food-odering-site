@@ -16,16 +16,18 @@ export default function ActionAreaC4() {
         <CardMedia
           component="img"
           height="140"
-          image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
+          image="https://c.pxhere.com/photos/22/cb/smoke_bbq_barbecue_grill_grilled_meat_food_pork-554844.jpg!d"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+          RADISSON BLU
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          South Indian, North Indian, Chinese, Sichuan, Shawarma, Biryani, Ice Cream, Shake
+          <br>
+          </br>
+          Open - 11am(Everyday) Closes -11pm(Everyday)
           </Typography>
         </CardContent>
       </CardActionArea>

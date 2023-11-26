@@ -63,7 +63,7 @@ export default function RecipeReviewCard() {
         Biryani, Chinese, Mughlai, North Indian, Seafood
         Open -11am(Everyday) 
         Closes -11pm(Everyday)
-        Open -11am(Everyday) Closes -11pm(Everyday)
+        
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

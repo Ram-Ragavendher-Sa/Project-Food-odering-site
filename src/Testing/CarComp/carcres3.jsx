@@ -16,16 +16,18 @@ export default function ActionAreaC3() {
         <CardMedia
           component="img"
           height="140"
-          image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
+          image="https://www.tasteofhome.com/wp-content/uploads/2019/04/shutterstock_101642626.jpg?w=1200"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+          COCKRACO RESTAURENT
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          South Indian, North Indian, Chinese, Sichuan, Shawarma, Biryani, Ice Cream, Shake
+        <br>
+        </br>
+        Open - 11am(Everyday) Closes -11pm(Everyday)
           </Typography>
         </CardContent>
       </CardActionArea>
