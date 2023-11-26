@@ -17,9 +17,9 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import './style.css';
 import { Navigate } from 'react-router-dom';
-// import Login from './login';
-// import Navbar from './navbar';
+import bgim from './img/thai-food.jpg';
 import ButtonAppBar from './Appbar';
+import { Paper } from '@mui/material';
 
 const defaultTheme = createTheme();
 
@@ -52,11 +52,12 @@ export default function SignUp() {
   };
 
   return (
-    <div className='total'>
+    <div className='total'style={{backgroundImage: `url(${bgim})`, height:'100vh'}}>
       <ButtonAppBar/>
       <ThemeProvider theme={defaultTheme}>
-        <Container component="main" maxWidth="xs" className='Container'>
+        <Container component="main" maxWidth="xs" className='Container' style={{alignItems:'center'}}>
           <CssBaseline />
+          <Paper style={{position:'absolute',padding:'50px',marginTop:'40px',width:'40vw',left:'31%'}}>
           <Box
             sx={{
               display: 'flex',
@@ -142,6 +143,8 @@ export default function SignUp() {
               </Grid>
             </Box>
           </Box>
+
+          </Paper>
         </Container>
       </ThemeProvider>
     </div>

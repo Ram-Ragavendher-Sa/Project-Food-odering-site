@@ -5,11 +5,6 @@ import ButtonAppBar from "./Testing/Appbar";
 import Lope from "./Testing/lop";
 import Homeimgfile from "./Testing/Homeimgfile";
 function App() {
-  return(
-
-<div>
- 
-  </div>
-  );
+  return <div></div>;
 }
 export default App;
