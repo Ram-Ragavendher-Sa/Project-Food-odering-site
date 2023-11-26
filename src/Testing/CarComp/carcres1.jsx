@@ -15,16 +15,22 @@ export default function ActionAreaC1() {
         <CardMedia
           component="img"
           height="140"
-          image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
-          alt="Biriyani"
+<<<<<<< HEAD
+          // image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
+          // alt="Biriyani"
+=======
+          image="https://wallpaperaccess.com/full/1972917.jpg"
+          alt="green iguana"
+>>>>>>> e539267edadff06cb5f8d55d12bac09d107b22eb
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+          SS HYDERABAD BIRIYANI
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          Biryani, Chinese, Mughlai, North Indian, Seafood
+        Open -11am(Everyday) 
+        Closes -11pm(Everyday)
           </Typography>
         </CardContent>
       </CardActionArea>
