@@ -15,13 +15,8 @@ export default function ActionAreaC1() {
         <CardMedia
           component="img"
           height="140"
-<<<<<<< HEAD
-          // image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
-          // alt="Biriyani"
-=======
           image="https://wallpaperaccess.com/full/1972917.jpg"
           alt="green iguana"
->>>>>>> e539267edadff06cb5f8d55d12bac09d107b22eb
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
