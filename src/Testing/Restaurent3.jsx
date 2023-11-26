@@ -4,7 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Grid, Icon } from '@mui/material';
+import { Button,Grid, Icon } from '@mui/material';
 import { CardActionArea } from '@mui/material';
 
 export default function Res3() {
@@ -44,8 +44,13 @@ export default function Res3() {
                 </Typography>
               </CardContent>
               <CardActions sx={{ justifyContent: 'flex-end' }}>
-                <Icon>remove_circle</Icon>
+                <Button>
+                  <Icon>remove_circle</Icon>
+                  </Button>
+                  <Button>
+
                 <Icon>add_circle</Icon>
+                  </Button>
               </CardActions>
             </Card>
           </Grid>
