@@ -1,9 +1,10 @@
 import React from 'react'
+import Slideshow from './Slider'
 
 const Orderpg = () => {
   return (
     <div>
-        Helloooo
+        <Slideshow/>
     </div>
   )
 }
