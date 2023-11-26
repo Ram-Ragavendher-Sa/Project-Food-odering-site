@@ -9,10 +9,10 @@ import { CardActionArea } from '@mui/material';
 
 export default function Res1() {
   const cardData = [
-    { title: 'Card 1', description: 'Description 1', image: '/static/images/cards/contemplative-reptile.jpg' },
-    { title: 'Card 2', description: 'Description 2', image: '/static/images/cards/contemplative-reptile.jpg' },
-    { title: 'Card 3', description: 'Description 3', image: '/static/images/cards/contemplative-reptile.jpg' },
-    { title: 'Card 4', description: 'Description 4', image: '/static/images/cards/contemplative-reptile.jpg' },
+    { title: 'Chicken Biriyani', description: 'Non-veg Price-100', image: 'https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg' },
+    { title: 'Chicken Noodles', description: 'Non-veg Price-100', image: 'https://www.whiskaffair.com/wp-content/uploads/2018/03/Chicken-Hakka-Noodles-2-3.jpg' },
+    { title: 'Chicken Rice', description: 'Non-veg Price-100', image: 'https://www.kannammacooks.com/wp-content/uploads/street-style-chicken-rice-recipe-1-3.jpg' },
+    { title: '', description: 'Description 4', image: '/static/images/cards/contemplative-reptile.jpg' },
     { title: 'Card 5', description: 'Description 5', image: '/static/images/cards/contemplative-reptile.jpg' },
     { title: 'Card 6', description: 'Description 6', image: '/static/images/cards/contemplative-reptile.jpg' },
     { title: 'Card 7', description: 'Description 7', image: '/static/images/cards/contemplative-reptile.jpg' },
