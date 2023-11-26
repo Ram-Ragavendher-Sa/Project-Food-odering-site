@@ -3,6 +3,7 @@ import 'react-slideshow-image/dist/styles.css'
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import MenuAppBar from './Homepgappbar';
 
 const spanStyle = {
   padding: '0',
@@ -34,13 +35,14 @@ const slideImages = [
 
 const Slideshow = () => {
     return (
-      <div className="slide-container">
+        <div className="slide-container">
+        <MenuAppBar/>
         <Slide>
           
          {slideImages.map((slideImage, index)=> (
-            <div key={index}>
-              <div style={{ ...divStyle }}>
+             <div key={index}>
                 <span style={spanStyle}>{slideImage.caption}</span>
+              <div style={{}}>
                 <img src={slideImage.url} width='100%' height='100%'/>
               </div>
             </div>
