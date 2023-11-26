@@ -68,6 +68,7 @@ import Menu from '@mui/material/Menu';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 import router from './Routing';
+import SearchBar from './search';
 export default function MenuAppBar() {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -91,10 +92,11 @@ export default function MenuAppBar() {
       <AppBar position="static" style={{backgroundColor:'black'}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Foodo 
+            Foodo
           </Typography>
           {auth && (
             <div>
+              
               <Link to='/orderpg'>
                 <Button>
                       <IconButton color="black" aria-label="add to shopping cart" style={{backgroundColor:'white',position:'absolute',right:'5%'}}>
@@ -128,6 +130,7 @@ export default function MenuAppBar() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
+                
                 <MenuItem> <Link to='/lop'><Button>Login</Button></Link>
                 </MenuItem>
                 <MenuItem> <Link to='/Signin'><Button>Signin</Button></Link></MenuItem>

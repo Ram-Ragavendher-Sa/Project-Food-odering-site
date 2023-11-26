@@ -11,6 +11,7 @@ import Bim from './img/thai-food.jpg'
 import { Link } from 'react-router-dom'
 import Desc from './Desc'
 import Newoff from './CarComp/Newoff'
+import SearchBar from './search'
 const Homeimgfile = () => {
   return (
     <div style={{backgroundColor: "#435585"}}>
@@ -22,7 +23,9 @@ const Homeimgfile = () => {
                 <br /><br />
                 <br />
                 <h1 style={{fontFamily:'serif',color:'white',fontSize:'50px'}}>Foodo !!</h1>
+                
                 <br />
+                
                 <div style={{color:'white'}}>
                     <h2>
                     End   Your Cravings 

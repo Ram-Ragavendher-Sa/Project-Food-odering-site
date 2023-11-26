@@ -19,7 +19,7 @@ const Orderpg = () => {
     }>
         <Slideshow/>
         <center>
-        <h3>Order Now</h3>
+        <h3 style={{color:"white"}}>ORDER NOW</h3>
         </center>
         <Grid align="spacebetween" padding='20px' flexGrow={10} justifyContent='space-between' style={{display: 'flex', flexDirection:'row'}}>
           
@@ -33,7 +33,7 @@ const Orderpg = () => {
           
         </Grid>
         <center>
-          <h3>RESTAURENT</h3>
+          <h3 style={{color:"white"}}>RESTAURANTS</h3>
         </center>
         <Grid align="spacebetween" padding='20px' flexGrow={10} justifyContent='space-between' style={{display: 'flex', flexDirection:'row'}}>
           <Link to={'/abc'}>

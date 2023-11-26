@@ -24,7 +24,7 @@ export default function ActionAreaCard2() {
             Dosa
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          A dosa is a thin savory crepe in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are served hot, often with chutney and sambar.
+          A dosa is a thin savory crepe in South Indian cuisine made from a fermented batter of ground black lentils and rice. 
           </Typography>
         </CardContent>
       </CardActionArea>

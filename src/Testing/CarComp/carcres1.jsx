@@ -23,7 +23,7 @@ export default function ActionAreaC1() {
           SS HYDERABAD BIRIYANI
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          Biryani, Chinese, Mughlai, North Indian, Seafood
+          Biryani, Chinese, Mughlai, North Indian, Seafood,South Indian<br></br>
         Open -11am(Everyday) 
         Closes -11pm(Everyday)
           </Typography>
