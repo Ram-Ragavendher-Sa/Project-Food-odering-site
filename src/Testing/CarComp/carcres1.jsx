@@ -5,7 +5,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import {motion} from 'framer-motion';
-
 export default function ActionAreaC1() {
   return (
     <div>

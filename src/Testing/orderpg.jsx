@@ -1,6 +1,7 @@
 import React from 'react'
 import Slideshow from './Slider'
 import { Grid } from '@mui/material'
+import { Link } from 'react-router-dom'
 import ActionAreaCard1 from './CarComp/carcompo1 copy 3'
 import ActionAreaCard2 from './CarComp/carcompo2 '
 import ActionAreaCard3 from './CarComp/carcompo3'
@@ -32,10 +33,18 @@ const Orderpg = () => {
           <h3>RESTAURENT</h3>
         </center>
         <Grid align="spacebetween" padding='20px' flexGrow={10} justifyContent='space-between' style={{display: 'flex', flexDirection:'row'}}>
+          <Link to={'/abc'}>
           <ActionAreaC1/>
+          </Link>
+          <Link to={'/abc1'}>
           <ActionAreaC2/>
+          </Link>
+          <Link to={'/abc2'}>
           <ActionAreaC3/>
+          </Link>
+          <Link to={'abc3'}>
           <ActionAreaC4/>
+          </Link>
           
           
 
