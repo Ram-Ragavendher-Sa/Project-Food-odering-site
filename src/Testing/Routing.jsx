@@ -13,10 +13,10 @@ const router=createBrowserRouter([
     { path:"/lop",element: <Lope/>},
     {path:"/Signin",element:<SignUp/>},
     {path:"/orderpg",element:<Orderpg/>},
-    {path:"/abc",element:<Res1/>},
-    {path:"/abc1",element:<Res2/>},
-    {path:"/abc2",element:<Res3/>},
-    {path:"/abc3",element:<Res4/>}
+    {path:"/Restaurent1",element:<Res1/>},
+    {path:"/Restaurent2",element:<Res2/>},
+    {path:"/Restaurent3",element:<Res3/>},
+    {path:"/Restaurent4",element:<Res4/>}
 ]);
 
 export default router

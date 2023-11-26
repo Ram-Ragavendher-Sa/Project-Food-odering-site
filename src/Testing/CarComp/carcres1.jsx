@@ -16,7 +16,7 @@ export default function ActionAreaC1() {
           component="img"
           height="140"
           image="https://theurbanbiriyani.in/wp-content/uploads/2022/10/ChickenBiriyani.jpeg"
-          alt="green iguana"
+          alt="Biriyani"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
