@@ -4,9 +4,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import {motion} from 'framer-motion';
 
 export default function ActionAreaCard1() {
   return (
+    
+    <div>
+    <motion.div style={{backgroundColor:'inherit'}}>
+    <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
@@ -26,5 +31,11 @@ export default function ActionAreaCard1() {
         </CardContent>
       </CardActionArea>
     </Card>
+    </motion.button>
+    </motion.div>
+  </div>
+      
+      
+    
   );
 }
