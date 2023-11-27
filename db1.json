@@ -39,6 +39,13 @@
       "email": "vidur@hotmail.com",
       "password": "vi12345",
       "id": 6
+    },
+    {
+      "firstName": "suk",
+      "lastName": "ash",
+      "email": "sukash@gmail.com",
+      "password": "123456",
+      "id": 7
     }
   ]
 }

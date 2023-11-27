@@ -26,7 +26,7 @@ export default function Res1() {
   ];
 
   return (
-    <center>
+    <center sx={{bgcolor:'#F5E8C7'}}>
         <h3>SS HYDERABAD BIRIYANI</h3>
       <Grid container spacing={2}>
         {cardData.map((card, index) => (
