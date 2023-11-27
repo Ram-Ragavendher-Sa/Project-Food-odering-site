@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -34,6 +35,7 @@ export default function RecipeReviewCard1() {
   };
 
   return (
+    <Link to={'/abc1'}>
     <motion.div style={{backgroundColor:'inherit'}}>
       <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
 
@@ -67,12 +69,6 @@ export default function RecipeReviewCard1() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
         <ExpandMore
           expand={xpanded}
           onClick={handlxpandCick}
@@ -119,5 +115,6 @@ Near, Pirivu, Palakkad Main Rd, BK Pudur, Kovaipudur, Tamil Nadu 641018
     </Card>
       </motion.button>
     </motion.div>
+    </Link>
   );
 }

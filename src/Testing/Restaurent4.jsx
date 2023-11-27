@@ -74,7 +74,7 @@ export default function Res4() {
       <Grid container spacing={2}>
         {cardData.map((card, index) => (
           <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
-            <Card sx={{ maxWidth: 345, backgroundColor: '#818FB4' }}>
+            <Card sx={{ maxWidth: 345, backgroundColor: '#F5E8C7' }}>
               <CardMedia sx={{ height: 140 }} image={card.image} title={card.title} />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

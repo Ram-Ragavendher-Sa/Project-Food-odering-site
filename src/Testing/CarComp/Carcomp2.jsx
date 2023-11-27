@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -35,6 +36,7 @@ export default function RecipeReviewCard2() {
   };
 
   return (
+    <Link to={'/abc2'}>
     <motion.div style={{backgroundColor:'inherit'}}>
       <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
     <Card sx={{ maxWidth: 345 ,bgcolor:'#F5E8C7'}}>
@@ -51,13 +53,13 @@ export default function RecipeReviewCard2() {
         }
         title="COCKRACO RESTAURENT "
         subheader="BK Pudur,Coimbatore"
-      />
+        />
       <CardMedia
         component="img"
         height="194"
         image="https://www.tasteofhome.com/wp-content/uploads/2019/04/shutterstock_101642626.jpg?w=1200"
         alt="Paella dish"
-      />
+        />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
         
@@ -68,12 +70,6 @@ export default function RecipeReviewCard2() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
         <ExpandMore
           expand={xpanded}
           onClick={handlxpandCick}
@@ -118,5 +114,6 @@ Prawn Curry<br></br>
     </Card>
       </motion.button>
     </motion.div>
+    </Link>
   );
 }

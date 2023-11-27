@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -34,6 +35,7 @@ export default function RecipeReviewCard2() {
   };
 
   return (
+    <Link to={'/abc3'}>
     <motion.div style={{backgroundColor:'inherit'}}>
       <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
 
@@ -51,7 +53,7 @@ export default function RecipeReviewCard2() {
           }
           title="RADISSON BLU "
           subheader="Nava India, Coimbatore"
-        />
+          />
         <CardMedia
           component="img"
           height="194"
@@ -68,12 +70,6 @@ export default function RecipeReviewCard2() {
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites">
-            <FavoriteIcon />
-          </IconButton>
-          <IconButton aria-label="share">
-            <ShareIcon />
-          </IconButton>
           <ExpandMore
             expand={xpanded}
             onClick={handlxpandCick}
@@ -118,5 +114,6 @@ export default function RecipeReviewCard2() {
       </Card>
       </motion.button>
     </motion.div>
+    </Link>
   );
 }

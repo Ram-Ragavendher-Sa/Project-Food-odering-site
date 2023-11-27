@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -35,6 +36,7 @@ export default function RecipeReviewCard() {
 
   return (
     <div sx={{bgcolor:'#F5E8C7'}}>
+      <Link to={'/abc'}>
       <motion.div style={{backgroundColor:'inherit'}}>
       <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
     <Card sx={{ maxWidth: 345 , bgcolor:'#F5E8C7'}}>
@@ -51,34 +53,28 @@ export default function RecipeReviewCard() {
         }
         title="SS HYDERABAD BIRIYANI"
         subheader="Gandhipuram,Coimbatore"
-      />
+        />
       <CardMedia
         component="img"
         height="194"
         image="https://wallpaperaccess.com/full/1972917.jpg"
         alt="Paella dish"
-      />
+        />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
         Biryani, Chinese, Mughlai, North Indian, Seafood
         Open -11am(Everyday) 
         Closes -11pm(Everyday)
-        
+        Authentic South Biriyani
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
-        >
+          >
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
@@ -128,6 +124,7 @@ AVERAGE COST:<br></br>
     </Card>
         </motion.button>
       </motion.div>
+          </Link>
     </div>
   );
 }
