@@ -69,9 +69,12 @@ import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 import router from './Routing';
 import SearchBar from './search';
+import { userContext } from './Context';
+import { useContext } from 'react';
 export default function MenuAppBar() {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [user,setuser]= useContext(userContext)
 
   const handleChange = (event) => {
     setAuth(event.target.checked);
@@ -94,6 +97,7 @@ export default function MenuAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Foodo
           </Typography>
+          <h3 style={{color:"white"}}>Logged in as : {user}</h3>
           {auth && (
             <div>
               
@@ -104,6 +108,7 @@ export default function MenuAppBar() {
                       </IconButton>
                 </Button>
               </Link>
+
               <IconButton
                 size="30px"
                 aria-label="account of current user"

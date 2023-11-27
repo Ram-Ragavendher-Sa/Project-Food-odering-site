@@ -20,4 +20,4 @@ const router=createBrowserRouter([
     {path:"/abc3",element:<Res4/>}
 ]);
 
-export default router
+export default router;
