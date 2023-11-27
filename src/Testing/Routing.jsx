@@ -8,6 +8,7 @@ import Res1 from "./Restaurent1";
 import Res2 from "./Restaurent2";
 import Res3 from "./Restaurent3";
 import Res4 from "./Restaurent4";
+
 const router=createBrowserRouter([
     { path:"/", element: <Homeimgfile/>},
     { path:"/lop",element: <Lope/>},
