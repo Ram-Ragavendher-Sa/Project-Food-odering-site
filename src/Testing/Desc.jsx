@@ -10,9 +10,13 @@ const Desc = () => {
                 <h1 style={{color:'white'}}>Way the food Reaches You....</h1>
                 <br></br>
                 <div style={{color:'white'}}>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates reiciendis architecto? Fugit tempore exercitationem optio dolore animi? Excepturi deserunt odio, architecto facere eius quod totam voluptatum quis reiciendis cum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quos sed eum nemo vero eveniet optio repellendus nobis deleniti ab ut, alias consequuntur a illum dolorem voluptate, quo, laudantium recusandae.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur deleniti pariatur quidem voluptate eveniet dolorum, quibusdam vitae non. Consequatur fugiat delectus ad illo est, tempore magni asperiores ab vel?
+                From cultivation on farms to processing, transportation, and distribution, the journey of food is a multifaceted process. Farmers nurture crops or raise livestock, initiating the cycle. Processing facilities transform raw materials into edible products, ensuring safety and quality. Transportation methods vary, with trucks, trains, ships, and planes facilitating distribution. Retailers and vendors then make the final connection to consumers, who make choices based on preferences and needs. Throughout, regulatory measures and technology uphold food safety, making this intricate journey an essential aspect of our daily lives.
+
+
+
+
+
+
                 </div>
             </div>
         </Container>
@@ -29,9 +33,7 @@ const Desc = () => {
                 <h1 >Serving you Hot....</h1>
                 <br></br>
                 <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates reiciendis architecto? Fugit tempore exercitationem optio dolore animi? Excepturi deserunt odio, architecto facere eius quod totam voluptatum quis reiciendis cum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quos sed eum nemo vero eveniet optio repellendus nobis deleniti ab ut, alias consequuntur a illum dolorem voluptate, quo, laudantium recusandae.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur deleniti pariatur quidem voluptate eveniet dolorum, quibusdam vitae non. Consequatur fugiat delectus ad illo est, tempore magni asperiores ab vel?
+                Serving you hot transcends mere temperature; it's an experience that elevates the culinary journey. The allure of a hot meal lies not just in the sizzle and steam but in the tantalizing aroma and heightened flavors that warmth unlocks. Whether it's a morning coffee awakening your senses or a well-cooked dish emerging, steaming, from the kitchen, the heat adds a comforting touch. It transforms meals into more than sustenance; it becomes a ritual, a moment of solace, and a sensory celebration. The contrast between the warmth and your palate creates a symphony of sensations, making each bite a gratifying, memorable delight.
                 </div>
             </div>
         </Container>
