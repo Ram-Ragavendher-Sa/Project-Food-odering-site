@@ -65,10 +65,12 @@ export default function Res3() {
   };
 
   return (
-    <center style={{ backgroundColor: "#435585" }}>
+    <div  style={{ backgroundColor: "#435585" }}>
       <MenuAppBar />
+
+    <center>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-      <h3>COCKRACO RESTAURENT</h3>
+      <h3 style={{color:"white"}}>COCKRACO RESTAURENT</h3>
       <Grid container spacing={2}>
         {cardData.map((card, index) => (
           <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
@@ -110,6 +112,7 @@ export default function Res3() {
 
       <Footer />
     </center>
+    </div>
   );
 }
 

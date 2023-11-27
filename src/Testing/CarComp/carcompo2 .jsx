@@ -5,10 +5,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function ActionAreaCard2() {
   return (
     <div>
+      <Link to={'/found'}>
     <motion.div style={{backgroundColor:'inherit'}}>
     <motion.button whileHover={{scale:'1.1'}} style={{backgroundColor:'inherit',borderColor:'transparent'}}>
     <Card sx={{ maxWidth: 345 }}>
@@ -31,6 +33,7 @@ export default function ActionAreaCard2() {
     </Card>
     </motion.button>
     </motion.div>
+      </Link>
     </div>
   );
 }
