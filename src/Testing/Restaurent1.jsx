@@ -7,6 +7,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button,Grid, Icon } from '@mui/material';
 import { CardActionArea } from '@mui/material';
+import MenuAppBar from "./Homepgappbar";
+import Footer from "./Footer";
 
 export default function Res1() {
   const cardData = [
@@ -26,12 +28,13 @@ export default function Res1() {
   ];
 
   return (
-    <center>
+    <center style={{backgroundColor: "#435585"}}>
+      <MenuAppBar/>
         <h3>SS HYDERABAD BIRIYANI</h3>
       <Grid container spacing={2}>
         {cardData.map((card, index) => (
           <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345, backgroundColor:'#818FB4'}}>
               <CardMedia sx={{ height: 140 }} image={card.image} title={card.title} />
               <link
          rel="stylesheet"
@@ -60,6 +63,7 @@ export default function Res1() {
           </Grid>
         ))}
       </Grid>
+      <Footer/>
     </center>
   );
 }
