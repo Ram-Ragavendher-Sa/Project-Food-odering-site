@@ -97,7 +97,7 @@ export default function MenuAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Foodo
           </Typography>
-          <h3 style={{color:"white"}}>Logged in as : {user}</h3>
+          <h3 style={{color:"white"}}>{user}</h3>
           {auth && (
             <div>
               
