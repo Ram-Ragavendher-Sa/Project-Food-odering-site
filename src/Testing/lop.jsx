@@ -10,8 +10,10 @@ import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 import { useEffect } from "react";
 import "react-toastify/dist/ReactToastify.css";
-
+import { userContext, usercontext } from "./Context";
+import { useContext } from "react";
 const Lope = () => {
+  const [user,setuser]= useContext(userContext)
   const [email, emailupdate] = useState("");
   const [password, passwordupdate] = useState("");
   const [apiData, setApiData] = useState([]);
@@ -41,6 +43,7 @@ const Lope = () => {
       if (valid) {
         console.log("success");
         toast.success("Logged In");
+        setuser(email);
         usenavigate("/");
       } else {
         console.log("Enter correct credentials");
